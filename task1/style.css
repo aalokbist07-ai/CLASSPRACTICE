@@ -1,0 +1,22 @@
+.card img{
+    width:90%;
+    border-radius:8px;
+}
+.card h1{
+    color:orangered;
+    margin-top: 10px;
+    font-size:20px;
+
+}
+.card p{
+    color:#666;
+    line-height:1.5;
+    margin-bottom:20px;
+}
+.card-btn{
+    border-radius: 6px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px  solid red;
+   background-color: blue;
+}

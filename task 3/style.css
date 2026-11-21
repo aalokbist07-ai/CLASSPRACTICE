@@ -1,0 +1,53 @@
+.head h1{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+}
+.home {
+    background-color: skyblue;
+    color: whitesmoke;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid red;
+}
+.gallery {
+    background-color: greenyellow;
+    color: whitesmoke;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid red;
+}
+.contact {background-color: purple;
+    color: whitesmoke;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid red;
+}
+#home {
+    color :red;
+    border-radius: 8px;
+    background-color: lightgreen;
+    font-size: 20px;
+    margin: 20px;
+}
+#gallery{
+    color :black;
+    border-radius: 8px;
+    background-color: rgb(236, 109, 90);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+#contact{color :purple;
+    border-radius: 8px;
+    background-color: rgb(160, 222, 233);
+    font-size: 20px;
+    margin: 20px;
+}}
