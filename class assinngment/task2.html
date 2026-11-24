@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+    }
+    td,th{ border:1px solid black;
+        padding: 10px;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+</style>
+<body>
+    <table>
+        <colgroup>
+        <col style="background-color: gray;"><col span="2"style="background-color:blue;">
+    <col style="background-color: yellow;">
+<col span="2" style="background-color: green;"><col style="background-color: gray;">
+</colgroup>
+    <tcaption> TIME TABLE</tcaption>
+    <theader>
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="2">morning sessions</th>
+            <th rowspan="2">Break<br>
+            11:00-11:30</th>
+            <th colspan="2">Afternoon session</th>
+            <th rowspan="2">Room</th>
+        </tr>
+       
+        <tr>
+            
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:30-12:30</th>
+            <th>12:30-1:30</th></tr></theader>
+            <tbody>
+        <tr>
+                <th> Monday</th>
+                <td colspan="2" style="font-size: small;"> HTML lab</td>
+                <td rowspan="5">Break</td>
+                <td>CSS</td>
+                <td>Practice</td>
+                <td>101</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>HTML</td>
+                <td>css</td>
+                <td colspan="2">web project</td>
+                <td>102</td>
+            </tr><tr>
+                <th> Wednesday</th>
+                <td colspan="2">table workshop</td>
+            <td> Review</td>
+        <td>Quiz</td>
+    <td>101</td>
+</tr><tr>
+    <th>Thrusday</th>
+    <td>javascript</td>
+    <td>practice</td>
+    <td colspan="2">Group project</td>
+    <td>101</td>
+</tr><tr>
+    <th> Friday</th>
+    <td> Revision</td>
+    <td> Test</td>
+    <td> Presentation</td>
+    <td> Feedback</td>
+    <td>101</td>
+</tr></tbody>
+   </tr>
+</table>
+</body>
+</html>
